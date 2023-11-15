@@ -1,0 +1,95 @@
+/* Add CSS here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  height: 100vh;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 250, 250);
+}
+
+.card {
+  width: 575px;
+  min-height: 300px;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 3rem;
+  box-shadow: 40px 40px 30px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card__title > h3 {
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.card__title > p {
+  text-align: center;
+  font-size: 0.7rem;
+  padding: 0, 1rem, 0, 1rem;
+  color: rgba(0, 0, 0, 0.563);
+}
+
+.form__fill {
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+
+.form__fill > input {
+  margin-top: 1rem;
+  border: solid 1px rgba(0, 0, 0, 0.296);
+  width: 55%;
+  height: 2.7rem;
+  font-size: 0.7rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+}
+
+::-webkit-input-placeholder,
+.form__fill > input::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+button {
+  width: 32%;
+  height: 2.7rem;
+  margin-left: 10px;
+  background-color: rgb(66, 154, 248);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0.5, 0.2);
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+input[type="radio"] {
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  appearance: none;
+  border: 1px solid rgba(0, 0, 0, 0.275);
+}
+
+.card__terms {
+  display: flex;
+  gap: 0.3rem;
+  font-size: 0.55rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
